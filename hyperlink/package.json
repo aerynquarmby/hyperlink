@@ -1,0 +1,19 @@
+{
+  "name": "hyperlink",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@web3icons/core": "^4.0.10",
+    "@web3icons/react": "^4.0.10",
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "thirdweb": "^5.92.1"
+  }
+}

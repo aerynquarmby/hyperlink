@@ -1,0 +1,179 @@
+.container {
+    position: relative;
+    width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 24px;
+    padding: 20px 20px 60px;
+    text-align: left; /* left-align main content to match mock */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+  /* Diamond at top */
+  .diamond {
+    width: 40px;
+    height: 40px;
+    background: #f0f0f0;
+    margin: -50px auto 10px;
+    transform: rotate(45deg);
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Top info row: avatar + user details on left, sign out on right */
+  .topRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Left portion of top row: avatar, name, phone stacked */
+  .userLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #eee;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #666;
+    font-size: 18px;
+  }
+  
+  /* For name + phone below it */
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .userName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .userPhone {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Sign out button on the right */
+  .signOutBtn {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* Wallet list area */
+  .walletList {
+    margin-bottom: 20px;
+  }
+  
+  /* Single wallet card row */
+  .walletCard {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Left side: icon + name + address */
+  .walletLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .walletIcon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #eee;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .walletDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .walletName {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 0 2px;
+  }
+  
+  .walletAddress {
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Manage button */
+  .manageBtn {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* "Add crypto wallet" and "Disconnect all" rows */
+  .actionRow {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .actionIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    stroke: #000;
+  }
+  
+  .actionText {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* pinned at bottom */
+  .secured {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+  }
+  

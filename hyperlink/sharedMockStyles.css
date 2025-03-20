@@ -1,0 +1,52 @@
+.shared-container {
+    position: relative;
+    width: 400px; /* Adjust as needed for your design */
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 24px;
+    padding: 20px 20px 60px; /* extra bottom padding for pinned footer */
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+  
+  /* Diamond at the top */
+  .diamond {
+    width: 40px;
+    height: 40px;
+    background: #f0f0f0;
+    margin: -50px auto 10px;
+    transform: rotate(45deg);
+    border-radius: 4px;
+  }
+  
+  /* Shared user info section (optional) */
+  .shared-userSection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .shared-userName {
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .shared-phone {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* "Secured by HyperLink" pinned inside the container */
+  .secured {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  
